@@ -22,6 +22,11 @@ public class User {
 	public void setAge(Integer age) {
 		this.age = age;
 	}
+	public User(String name, Integer age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
 	
 	
 	
